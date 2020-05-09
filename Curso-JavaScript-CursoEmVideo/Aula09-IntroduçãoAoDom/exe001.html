@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo001</title>
+    <style>
+        body{
+            background: rgb(90, 90, 226);
+            color: white;
+            font-size: normal 18pt arial;
+        }
+    </style>
+</head>
+<body>
+    <h1>Selecionando</h1>
+    <p>Por <strong>MARCA</strong></p>
+    <p id= "identificador">Por <strong>ID</strong></p>
+    <p name= "nome">Por <strong>NOME</strong></p>
+    <p class= "classe">Por <strong>CLASSE</strong></p>
+    <div id= "identificador">Por <strong>SELETOR</strong></div>   
+    
+    <script>
+       /* EXEMPLO 001 AULA 09  
+            document.writeln("Olá, Mundo ! </br>")
+            document.writeln(document.charset + "<br>")
+            document.writeln(navigator.appName + "<br>")
+            document.writeln(document.URL)
+        */ 
+        
+       // EXEMPLO 002 AULA 09 - POR MARCA
+            var p0 = document.getElementsByTagName('p')[0]
+            p0.style.background = 'red'
+
+       /*   var corpo = document.body
+            corpo.style.background = 'black'
+
+            var p1 = window.document.getElementsByTagName('p')[0]  
+            window.document.writeln('Está escrito assim: ' + p1.innerText)
+            
+            var p1 = document.getElementsByTagName('p')[0]
+            document.writeln(p1.innerHTML)
+
+            var p1 = document.getElementsByTagName('p')[0]
+            p1.style.color = 'blue'
+        */
+       // EXWMPLO 003 AULA 09 - POR ID 
+            var p1 = document.getElementById('identificador')
+            p1.style.background = 'black'
+       
+       // EXEMPLO 004 AULA 09 - POR NOME
+            var p3 = document.getElementsByName('nome')[0]
+            p3.style.background = 'green'
+       
+       // EXEMPLO 005 AULA 09 - POR CLASSE 
+            var p4 = document.getElementsByClassName('classe')[0]
+            p4.style.background = 'pink'
+        
+        // EXEMPLO 006 AULA 09 - POR SELETOR
+            var p5 = document.querySelector('div#identificador')
+            p5.style.background =  '#939' 
+        
+            
+    </script>
+    
+</body>
+</html>
