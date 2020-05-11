@@ -1,0 +1,29 @@
+div {
+    margin-top: 10px;
+    font: normal 20pt arial;
+    color: white;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    display: inline-block
+    
+}
+.primeiro {
+    background-color: rgb(42, 139, 42);        
+}
+.segundo{
+    background-color: indianred;
+}
+.terceiro{
+    background-color: red;
+}
+.quarto {
+    background-color: deeppink;
+}
+.quinto {
+    background-color: pink;
+}
+.sexto {
+    background-color: tomato;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exe.Eventods Dom</title>
+    <link rel="stylesheet" href="exe001.css">
+    <style>
+
+    </style>
+    
+</head>
+<body>
+    <div class ="area primeiro"> <!--<div class ="area primeiro" onclick="exe001()"></div>-->
+         Primeiro...    
+    </div>
+    <div class="area segundo"><!--<div class="area segundo" onclick="exe0021()"
+    onmouseenter="exe0022()"></div>-->
+         Segundo...    
+    </div>
+    <div class="area terceiro"> <!--<div class="area terceiro" onclick="exe0031()" onmouseenter="exe0032()" onmouseout="exe0033()">--> 
+         Terceiro...    
+    </div>
+    <div class="area quarto"><!--<div class="area quarto" onclick="exe0041()" onmouseenter="exe0042()" onmouseout="exe0043()">--> 
+         Quarto...    
+    </div>
+    <div class="area quinto">
+         Quinto...    
+    </div>
+    <div class="area sexto">
+         Sexto...    
+    </div>
+    <script>
+        function exe001() {
+            var p = document.querySelector('.primeiro')
+            p.innerText = "cliquei"
+        }
+        var s = document.querySelector('.segundo')
+        function exe0021(){ 
+            //var s = document.querySelector('.segundo')
+            s.innerText = "cliquei"
+        } 
+        function exe0022(){
+            //var s = document.querySelector('.segundo')
+            s.innerText = 'Mouse Entrou'
+        }
+        var t = document.querySelector('.terceiro')
+        function exe0031(){
+           // var t = document.querySelector('.terceiro')
+            t.innerText = "cliquei"
+        }
+        function exe0032() {
+           // var t = document.querySelector('.terceiro')
+            t.innerText = 'Mouse Entrou'
+        }
+        function exe0033() {
+           // var t = document.querySelector('.terceiro')
+            t.innerText = 'Mouse Saiu'
+        }
+        var q = document.querySelector('.quarto')
+        function exe0041(){
+           // var t = document.querySelector('.terceiro')
+            q.innerText = "cliquei"
+            q.style.background = 'red'
+        }
+        function exe0042() {
+           // var t = document.querySelector('.terceiro')
+            q.innerText = 'Mouse Entrou'
+        }
+        function exe0043() {
+           // var t = document.querySelector('.terceiro')
+            q.innerText = 'Mouse Saiu'
+        }
+        
+         
+
+    </script>
+    
+</body>
+</html>
