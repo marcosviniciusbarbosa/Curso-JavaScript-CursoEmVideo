@@ -31,11 +31,15 @@
          Sexto...    
     </div>
     <script>
+        var p = document.querySelector('.primeiro')
+        p.addEventListener('click', exe001)
         function exe001() {
-            var p = document.querySelector('.primeiro')
             p.innerText = "cliquei"
         }
+
         var s = document.querySelector('.segundo')
+        s.addEventListener('click', exe0021)
+        s.addEventListener('mouseenter', exe0022)        
         function exe0021(){ 
             //var s = document.querySelector('.segundo')
             s.innerText = "cliquei"
@@ -44,7 +48,11 @@
             //var s = document.querySelector('.segundo')
             s.innerText = 'Mouse Entrou'
         }
+
         var t = document.querySelector('.terceiro')
+        t.addEventListener('click', exe0031)
+        t.addEventListener('mouseenter', exe0032)
+        t.addEventListener('mouseout', exe0033)        
         function exe0031(){
            // var t = document.querySelector('.terceiro')
             t.innerText = "cliquei"
@@ -57,11 +65,15 @@
            // var t = document.querySelector('.terceiro')
             t.innerText = 'Mouse Saiu'
         }
+
         var q = document.querySelector('.quarto')
+        q.addEventListener('click', exe0041)
+        q.addEventListener('mouseenter', exe0042)
+        q.addEventListener('mouseout', exe0043)
         function exe0041(){
            // var t = document.querySelector('.terceiro')
             q.innerText = "cliquei"
-            q.style.background = 'red'
+            q.style.background = 'black'
         }
         function exe0042() {
            // var t = document.querySelector('.terceiro')
