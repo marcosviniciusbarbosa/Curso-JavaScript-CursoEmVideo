@@ -1,0 +1,29 @@
+body{
+    background-image: url(./image/fundo.png);
+    text-align: center;
+}
+header{
+    font-size: 40px;
+    color: #fff;
+    font: "Bangers";
+    margin: 70px 0px 15px 60px;
+}
+section{
+    display: inline-block;
+    width: 400px;
+    margin-left: 50px;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.411);
+}
+div{
+   margin: 15px;
+   text-align: justify;
+}
+.painel{
+    
+}
+footer{
+    margin-top: 160px;
+}
