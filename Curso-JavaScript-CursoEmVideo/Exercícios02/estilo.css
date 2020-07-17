@@ -1,29 +1,53 @@
-body{
+body {
     background-image: url(./image/fundo.png);
     text-align: center;
 }
-header{
+
+header {
     font-size: 40px;
     color: #fff;
     font: "Bangers";
     margin: 70px 0px 15px 60px;
 }
-section{
+
+section {
     display: inline-block;
     width: 400px;
     margin-left: 50px;
     background-color: #fff;
-    padding: 10px;
+    padding: 20px;
     border-radius: 15px;
-    box-shadow: 5px 5px 5px  rgba(0, 0, 0, 0.411);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.411);
+} 
+.foto{
+    display: block;
+    margin: 15px auto;
 }
-div{
-   margin: 15px;
-   text-align: justify;
+
+footer {
+    margin-top: 150px;
 }
-.painel{
-    
-}
-footer{
-    margin-top: 160px;
-}
+/*var img = document.querySelector('div#foto')
+        var deg = document.querySelector('#dec')
+        var but = document.querySelector('div#but') */
+       /* if (idade.value.length <= 23 && sexo == Marculino) {
+            deg.innerHTML = `Detectamos Homen com ${idade} anos.`
+            img.src = './image/jovemM.jpg'
+        } else if (idade <= 23 && sexo == Feminimo) {
+            deg.innerHTML = `Detectamos mulher com ${idade} anos.`
+            img.src = './image/jovemF.jpg'
+        }
+        if (idade >= 23 || idade <= 40 && sexo == Marculino) {
+            deg.innerHTML = `Detectamos Homen com ${idade} anos.`
+            img.src = './image/jovemM.jpg'
+        } else if (idade >= 23 || idade <= 50 && sexo == Feminimo) {
+            deg.innerHTML = `Detectamos mulher com ${idade} anos.`
+            img.src = './image/jovemF.jpg'
+        }
+        if (idade > 50 && sexo == Marculino) {
+            deg.innerHTML = `Detectamos Homen com ${idade} anos.`
+            img.src = './image/jovemM.jpg'
+        } else if (idade > 50 && sexo == Feminimo) {
+            deg.innerHTML = `Detectamos mulher com ${idade} anos.`
+            img.src = './image/jovemF.jpg'
+        }*/
